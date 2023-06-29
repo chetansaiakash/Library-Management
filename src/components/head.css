@@ -1,0 +1,46 @@
+/* .imgbg{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: block;
+} */
+.container{
+    background: url('/src/components/bg.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background-color: white;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #6082B6;
+    color: #fff;
+
+}
+.setposition{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+
+.setposition .btn {
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.setposition h2 {
+    color: #fff;
+    margin-top: 15px;
+}
